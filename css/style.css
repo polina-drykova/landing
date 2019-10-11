@@ -1,0 +1,45 @@
+/* Fonts */
+@import url('<link href="https://fonts.googleapis.com/css?family=Kalam|Lato:100,300|Poppins:400,500,600&display=swap" rel="stylesheet">');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url(components/banner.css);
+@import url(components/button.css);
+@import url(components/cards.css);
+@import url(components/container.css);
+@import url(components/footer.css);
+@import url(components/info.css);
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  /*font-weight: lighter;*/
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+@media (max-width: 960px) {
+  .container .banner .card .footer {
+    width: 850px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container .banner .card .footer {
+    width: 700px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container .banner .card .footer {
+    width: 500px;
+  }
+}

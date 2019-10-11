@@ -1,0 +1,19 @@
+.btn-yours {
+  background-color: rgba(0, 0, 0, .5);
+  /*opacity: .7;*/
+  border-radius: 4px;
+  padding: 14px 23px;
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  transition: .3s;
+  font-size: 14px;
+}
+
+.btn-yours:hover {
+  background-color: rgba(0, 0, 0, .8);
+  /*color: #E05C1A;*/
+  color: white;
+  /*border: 1px solid black;*/
+  /*font-weight: normal;*/
+}

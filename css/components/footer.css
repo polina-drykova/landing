@@ -1,0 +1,30 @@
+.footer {
+  margin-top: 65px;
+  background-color: transparent;
+  color: gray;
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+  height: 70px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+}
+
+.footer a {
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+  margin-top: 0;
+}
+
+.footer a:hover {
+  color: #E05C1A;
+}
+
+.footer p {
+  font-weight: lighter;
+  color: #E05C1A;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+
